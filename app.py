@@ -14,12 +14,12 @@ except FileNotFoundError:
     vectorizer = None
 
 # Define the Streamlit app
-st.title("VR Immersion Level Sentiment Predictor")
-st.header("Predict the sentiment of a VR review based on text.")
+st.title("VR Motion Sickness Level Predictor")
+st.header("Predict the Motion Sicknes of a VR .")
 
 if loaded_model and vectorizer:
     # Create a text area for user input
-    review_text = st.text_area("Enter the VR review text here:", "")
+    review_text = st.text_area("Enter data here:", "")
 
     # Add a button to trigger the prediction
     if st.button("Predict Sentiment"):
