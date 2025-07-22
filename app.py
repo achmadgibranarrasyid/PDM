@@ -40,6 +40,6 @@ if loaded_model and vectorizer:
             else:
                 st.error(f"Predicted Sentiment: {sentiment_label}")
         else:
-            st.warning("Please enter some text to predict the sentiment.")
+            st.warning("Please enter data to predict .")
 
-st.info("This app predicts whether a VR review indicates a generally positive or negative immersion level based on the text provided. The model was trained on a dataset containing VR user experiences.")
+st.info("This app predicts whether a VR Motion Sickness base on age and other data.The Model trained for better experience play with VR.")
